@@ -1,5 +1,5 @@
 package main
 
-func SayHello() string {
-	return "Hello, World! saya adalah Golang"
+func SayHello(name string) string {
+	return "Hello, World! saya adalah Golang" + "nama saya adalah " + name
 }
